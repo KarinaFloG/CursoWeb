@@ -1,0 +1,103 @@
+HTML{
+	color: blue;
+}
+
+h1{
+	color: maroon;
+}
+
+body{
+	background-color: teal;
+}
+
+li{
+	color: white;
+}
+
+#Presentacion{
+	color: white;
+}
+
+img.bg{
+	/* Establezca reglas para el relleno de fondo */
+    min-height: 30%;
+    min-width: 30%;
+            
+    /* Establecer la escala proporcional */
+    width: 30%;
+    height: 40%;
+            
+    /* Establecer posicion */
+    background-position: top right;
+}
+
+img.dis1{
+    /* Establezca reglas para el relleno de fondo */
+    min-height: 30%;
+    min-width: 30%;
+            
+    /* Establecer la escala proporcional */
+    width: 30%;
+    height: 40%;
+            
+    /* Establecer posicion */
+    background-position: top right;
+}
+
+img.dis2{
+    /* Establezca reglas para el relleno de fondo */
+    min-height: 30%;
+    min-width: 30%;
+            
+    /* Establecer la escala proporcional */
+    width: 30%;
+    height: 40%;
+            
+    /* Establecer posicion */
+    background-position: top left;
+}
+
+
+img.dis3{
+    /* Establezca reglas para el relleno de fondo */
+    min-height: 30%;
+    min-width: 30%;
+            
+    /* Establecer la escala proporcional */
+    width: 30%;
+    height: 40%;
+            
+    /* Establecer posicion */
+    background-position: top left;
+}
+
+#biog{
+    color: white;
+}
+
+
+img.prem1{
+    /* Establezca reglas para el relleno de fondo */
+    min-height: 30%;
+    min-width: 30%;
+            
+    /* Establecer la escala proporcional */
+    width: 30%;
+    height: 40%;
+            
+    /* Establecer posicion */
+    background-position: top right;
+}
+
+img.prem2{
+    /* Establezca reglas para el relleno de fondo */
+    min-height: 30%;
+    min-width: 30%;
+            
+    /* Establecer la escala proporcional */
+    width: 30%;
+    height: 40%;
+            
+    /* Establecer posicion */
+    background-position: top left;
+}

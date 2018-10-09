@@ -1,0 +1,37 @@
+/*ESTILOS*/ 
+h1 h5{
+	color: red;
+	color: #B061FF;/*En las paginas se consultan los codigos*//*Con color picker*/
+	color: rgb(100,200,30);
+	background-color: blue;
+	/*Se queda el último porque funciona en cascada*/
+}
+
+p{
+	color: red;
+}
+
+/*Selectores de id- son unicos*/
+/*Se aplican solo para un elemento*/
+#ParrafoUno{
+	color: blue;
+}
+
+/*Para modificar clases se escribe un punto y el nombre de la clase*/
+/*Para muchos elementos se aplican clases*/
+.imagenRe{
+	height: 125px;
+	width: 200px;
+}
+
+/*Para ponerle color a toda la pagina*/
+/*Selector de tipo de etiqueta HTML*/
+/*Selector *{}*/
+html{
+	background-color: pink;
+}
+
+/*Etiqueta descendente*/
+i{
+	color: pink;
+}

@@ -1,0 +1,22 @@
+	<header><!-- natbar (barra de las paginas web) -->
+		
+	</header>
+	<div>
+		<h1>Titulo</h1>
+	</div>
+	<h2>Titulo</h2>
+	<h3>Titulo</h3>
+	<h4>Titulo</h4>
+	<h5>titulo</h5>
+	<h6>Titulo</h6>
+	<p id="ParrafoUno">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <i> Debitis, asperiores laborum aliquid facere velit praesentium rem saepe tempora quae, ducimus perspiciatis, commodi illum. </i> Beatae inventore veniam atque culpa, minima perspiciatis.</p><!-- etiquetas de parrafo--> <!-- contiene un id unico -->
+	<br> <!-- salto de pagina-->
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, et!</p>
+	<img src="img/icon.png" alt="Logo de la empresa"> <!-- alt es un texto que describe la imagen -->
+	<button>Texto dentro del boton</button>
+	<!-- Creacion de una clase para poder instanciar -->
+	<img class="imagenRe" src="img/icons8-robot-32.png" alt="">
+	<img src="img/icons8-robot-2-64.png" alt="">
+	<img clas="imagenRe" src="img/icons8-robot-2-64.png" alt="">
+	<img src="img/icons8-robot-2-64.png" alt="">
+	<img src="img/icons8-robot-2-64.png" alt="">
