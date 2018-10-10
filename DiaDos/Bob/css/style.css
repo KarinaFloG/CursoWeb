@@ -1,0 +1,32 @@
+.modeladoLogo{
+	padding: 30px 600px;
+	background: #F38010;
+	width: 130px;
+	height: 130px;
+}
+
+img{
+	/*Dependiendo del tamaño de la imagen se ajusta sola*/
+	width: 80%;
+	height: auto;
+}
+
+.parrafo1{
+	margin: 10px 50px;
+	padding: 20px;
+	/*Para hacer el borde más grueso*/
+	border-width: 15px;
+	border-style: ridge;
+	border-color: blue;
+	text-align: justify;
+}
+
+.tresElementos{
+	margin: 30px 250px;
+	padding: 50px;
+	justify-content: center;
+	background-color: red;
+	border-style: solid;
+	border-color: yellow: 
+	border-width: 20px;
+}

@@ -1,0 +1,160 @@
+body{
+	background-color: #4EADFC;
+}
+
+.modeladoLogo{
+	padding: 30px 600px;
+	background: yellow;
+	width: 130px;
+	height: 130px;
+	border-style: ridge;
+	border-color: blue;
+}
+
+.parrafo1{
+	/*COnfig de la caja*/
+	margin: 10px 50px;
+	padding: 20px;
+	border-width: 10px;
+	/*Para hacer el borde más grueso*/
+	border-style: dotted;
+	border-color: blue;
+	text-align: justify;
+	/*Poisicon de la caja*/
+	position: absolute;
+	top: 450px;
+	bottom: 0;
+	right: 0;
+	left: 500px;
+	/*Alineación*/
+	justify-content: center;
+	/*Tamaño,yipo y color de letra*/
+	font-family: fantasy;
+	font-size: 170%;
+	background-color: aqua; 
+
+}
+
+
+
+img{
+	/*Dependiendo del tamaño de la imagen se ajusta sola*/
+	width: 50%;
+	height: auto;
+}
+
+.blastoisePrin{
+	width: 40%;
+	position: absolute;
+	top: 400px;
+	bottom: 0;
+	right: 0;
+	left: 0px;
+
+}
+
+.bienvenida{
+	font-family: serif;
+	font-size: 245%;
+	color: red;
+	/*background-color: aqua; */
+	/*Poisicon de la caja*/
+	position: absolute;
+	top: 250px;
+	bottom: 0;
+	right: 0;
+	left: 10px;
+}
+
+.nombre{
+	/*Tamaño,yipo y color de letra*/
+	font-family: serif;
+	font-size: 240%;
+	color: red;
+	/*Poisicon de la caja*/
+	position: absolute;
+	top: 300px;
+	bottom: 0;
+	right: 0;
+	left: 170px;
+	/*Para hacer el borde más grueso*/
+ 	border-style: inset;
+ 	border-width: 7px;
+	border-color: purple;
+	text-align: justify;
+	/*Tamaño de la caja*/
+	width: 170px;
+	height: 60px;
+}
+
+.info{
+	/*Poisicon de la caja*/
+	position: absolute;
+	top: 700px;
+	bottom: 0;
+	right: 0;
+	left: 570px;
+	/*Tamaño*/
+	width: 50%;
+	/*Tamaño de la caja*/
+	width: 580px;
+	height: 320px;
+}
+
+.github-button{
+    text-decoration: none;
+    padding: 8px;
+    margin: 10px 50px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #5c13b2;
+    background-color: #E399C3;
+    border-radius: 6px;
+    border: 2px; 
+    solid #0016b0;
+    text-align: justify;
+	justify-content: center;
+    /*Posicion del boton*/
+    position: absolute;
+	top: 1550px;
+	bottom: 0;
+	right: 20px;
+	left: 0;
+	/*Tamaño de la caja*/
+	width: 200px;
+	height: 35px;
+
+  }
+
+  .github-button:hover{
+    color: #5C13B2;
+    background-color: #ffffff;
+  }
+
+.puntos{
+	/*Poisicon de la caja*/
+	position: absolute;
+	top: 1000px;
+	bottom: 0;
+	right: 0;
+	left: 570px;
+	/*Tamaño*/
+	width: 50%;
+	/*Tamaño de la caja*/
+	width: 580px;
+	height: 320px;
+}
+
+.tipo{
+	/*Poisicon de la caja*/
+	position: absolute;
+	top: 1300px;
+	bottom: 0;
+	right: 0;
+	left: 570px;
+	/*Tamaño*/
+	width: 50%;
+	/*Tamaño de la caja*/
+	width: 580px;
+	height: 320px;
+}

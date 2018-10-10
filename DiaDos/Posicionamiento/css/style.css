@@ -1,0 +1,45 @@
+body{
+	background-color: #F1F1F1;
+
+}
+
+h1{
+	/*Posicion*/
+	/*position: static;*/
+	position: absolute;
+	top: 50px;
+	left: 100px;
+}
+
+.pos{
+	/*Se dezplaza en cuanto a la posición original*/
+	position: relative;
+	/*Modificar margenes*/
+	left: 100px;
+	right: 100px;
+	top: 100px;
+	bottom: 100px;
+	padding: 20px;
+}
+
+.pos1{
+	/*Se dezplaza en cuanto a la posición original*/
+	position: fixed;
+	/*Modificar margenes*/
+	left: 200px;
+	right: 200px;
+	top: 200px;
+	bottom: 200px;
+
+}
+
+.pos2{
+	/*Se dezplaza en cuanto a la posición original*/
+	position: inherit;
+	/*Modificar margenes*/
+	left: 200px;
+	right: 200px;
+	top: 200px;
+	bottom: 200px;
+	padding: 20px;
+}

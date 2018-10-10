@@ -1,0 +1,23 @@
+.caja1{
+	background: #419CE3;
+	/*Todos los margenes diferentes*/
+	margin-top: 50px;
+	margin-left: 30px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	padding-top: 50px;
+	padding-left: 30px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+}
+
+.caja2{
+	/*Para que todos los bordes sean iguales*/
+	background: ;
+	margin: 50p#f8f7px;
+	padding: 60px;
+}
+
+.caja3{
+	
+}
