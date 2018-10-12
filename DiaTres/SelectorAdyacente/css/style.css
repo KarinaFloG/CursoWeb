@@ -1,0 +1,10 @@
+h2{
+	background: pink;
+}
+
+h1 + h2{
+	background: yellow;
+}
+p + p{
+	text-indent: 1.5em;
+}

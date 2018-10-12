@@ -1,0 +1,15 @@
+/*Selectores hijos*/
+p>span{
+	color: red;
+}
+
+/*Selector descendente
+/*Todas las etiquetas a dentro de un p tienen el color*/
+p a{
+	background: red;
+}
+
+/*Solo los hijos totalmente directos*/
+p>a{
+	background: blue;
+}

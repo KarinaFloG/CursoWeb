@@ -1,0 +1,14 @@
+a[class~="estilo2"]{
+	background: blue;
+}
+p[class="clase2"]{
+	background: brown;
+}
+
+p[class]{
+	background: orange;
+}
+
+a[class="estilo1"]{
+	background: yellow;
+}
