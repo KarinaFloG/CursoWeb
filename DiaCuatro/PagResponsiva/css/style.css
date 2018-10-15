@@ -1,0 +1,56 @@
+body {
+    background-color: lightgreen;
+}
+
+.wrapper{
+	owerflow: auto;
+}
+
+@media (min-width: 1200px){
+	.columna1, .columna2, .columna3{
+		float: left;
+		padding: 0;
+		margin: 0;
+	}
+
+	.columna1{
+	width: 40%
+	}
+
+	.columna2, .columna3{
+		width: 20%;
+	}
+
+	img{
+	width: 100%;
+	height: auto;
+	}
+
+	.container{
+		padding: 3em 2em;
+	}
+
+}
+
+@media (min-width: 800px) and (max-width: 1199px){
+	.columna1{
+		img{
+			width: 100%;
+			height: auto;
+			float: left;
+		}
+
+		float: left;
+		padding: 0;
+		margin: 0;
+	}
+
+	.columna2, .columna3{
+		width: 25%;
+	}
+
+	.container{
+		padding: 3em 2em;
+	}
+}
+

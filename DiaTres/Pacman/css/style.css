@@ -1,0 +1,97 @@
+.pacman{
+  margin:0px 0px;
+}
+
+.container{
+  animation-name: avanzar;
+  animation-duration: 15s:  
+  animation-iteration-count: infinite; 
+}
+
+.parteArriba{
+  height:50px;
+  width:100px;
+  border-radius:100px 100px 0px 0px;  
+  animation: comer1 2s infinite linear; 
+  background-color:yellow; 
+
+}
+
+.parteAbajo{
+  height:50px;
+  width:100px;
+  border-radius:0 0 100px 100px;
+  animation: comer2 2s infinite linear;
+  background-color:yellow;
+
+}
+
+
+@keyframes avanzar{
+	from{ transform: translateX(0); }
+	to{ transform: translate(1800px); }
+}
+
+
+@keyframes comer1 { 
+  0%  {transform: rotate(0deg);} 
+  50%{transform: rotate(-35deg);} 
+  
+}
+@keyframes comer2 { 
+  0%  {transform: rotate(0deg);} 
+  50%{transform: rotate(35deg);} 
+}
+
+@-moz-keyframes comer1 {
+  0%  {transform: rotate(0deg);} 
+  50%{transform: rotate(-35deg);}
+  
+}
+@-moz-keyframes comer2 {
+  0%  {transform: rotate(0deg);} 
+  50%{transform: rotate(35deg);}
+}
+
+@-webkit-keyframes comer1 {
+  0%  {transform: rotate(0deg);} 
+  50%{transform: rotate(-35deg);}
+  
+}
+@-webkit-keyframes comer2 {
+  0%  {transform: rotate(0deg);} 
+  50%{transform: rotate(35deg);}
+}
+
+.coin{
+	margin-top: -125px;
+	margin-left: -50px;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	-moz-animation: comer 2s linear 0s infinite; /
+	-webkit-animation: comer 2s linear 0s infinite;
+	animation: comer 2s linear 0s infinite;
+}
+
+
+@keyframes comer{
+
+	from{ box-shadow: 
+    1100px 55px 0 0 red,
+    900px 55px 0 0 red,
+    700px 55px 0 0 red,
+    500px 55px 0 0 red,
+    300px 55px 0 0 red,
+	100px 55px 0 0 red;}
+
+  	to{ box-shadow:
+    1300px 55px 0 0 red,
+    1100px 55px 0 0 red,
+    900px 55px 0 0 red,
+    700px 55px 0 0 red,
+    500px 55px 0 0 red,
+    300px 55px 0 0 red,
+    100px 55px 0 0 red;}
+}
