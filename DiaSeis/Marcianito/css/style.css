@@ -1,0 +1,37 @@
+html{
+	background-color: green;
+}
+
+.pos1{
+	/*Se dezplaza en cuanto a la posición original*/
+	position: fixed;
+	/*Modificar margenes*/
+	left: -500px;
+	right: -300px;
+	top: 200px;
+	bottom: 200px;
+	background-color: yellow; 
+	/*Para hacer el borde más grueso*/
+	border-style: dotted;
+	border-color: blue;
+	text-align: justify;
+}
+.titulo{
+	margin: 50px;
+	padding: 80px;
+	text-align: center;
+	font-style:italic;
+	font-weight:bold;
+	font-size:2em;
+	font-color: blue;
+}
+
+.marciano{
+	animation-name: avanzar;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+@keyframes avanzar{
+	from{ transform: translateX(0); }
+	to{ transform: translateX(1400px); }
+}
