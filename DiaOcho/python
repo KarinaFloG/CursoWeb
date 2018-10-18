@@ -1,0 +1,12 @@
+Tipos de datos:
+Int, Str, List, Tupla, Dict, Float, Set, FrozenSet.
+Tipado: Fuerte y dinamico.
+Caracteristicas: Multiplataforma y multiparadigma(POO, Estructurado, funcional)
+
+
+
+Un templatees completamente diferente a un framework
+Framewok: CSS, JS, Lenguaje.
+Apache es un servidor web.
+WSGI: Interaz que utiliza DJango para tener un servidor local para realizar pruebas de nuestros proyectos.
+ 
