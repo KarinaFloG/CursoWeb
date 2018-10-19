@@ -1,0 +1,59 @@
+ <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <meta charset="utf-8">
+      <title>PHPClase37</title>
+      <link rel="shortcut icon" type="image/png" href="img/icono.png">
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="css/estilo.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+    <!--Navbar-->
+      <nav>
+        <div class="nav-wrapper light-blue darken-4">
+          <a href="#" class="brand-logo"><img src="img/icono.png" alt="logo"></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="contac.html">Contacto</a></li>
+            <li><a href="cerrar.php">Salir</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Index</a></li>
+        <li><a href="contac.html">Contacto</a></li>
+        <li><a href="cerrar.php">Salir</a></li>
+      </ul>
+
+        <h1>Ingreso</h1>
+        <div class="container">
+            <form action="ingresar.php" method="POST">
+              <h2>Ingresar nombre de usuario: </h2>
+              <input type="text" name="nombre" placeholder="Nombre" required>
+              <h2>Ingresar tu contraseña: </h2>
+              <input type="password" name="contrasena" placeholder="Contraseña" required>
+              <br><br>
+              <input type="submit" name="ingresar" value="Ingresar">
+            </form>
+          </div>
+
+        <div class="footer-copyright">
+          <div class="container">
+            © 2018 PROTECO
+            <a class="grey-text text-lighten-4 right" href="www.proteco.mx">sitio alterno</a>
+          </div>
+        </div>
+      </footer>
+
+      <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/app.js"></script> 
+    </body>
+  </html>
