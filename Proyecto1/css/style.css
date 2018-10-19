@@ -1,0 +1,13 @@
+html{
+	/*Imagen de fondo para todos los archivos html*/
+	background-image: url(../img/fondo.jpg);
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.imagen{
+	margin: 0px 15px 15px 0px;
+
+}
