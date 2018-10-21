@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{%block contenido%}
+
+{%endblock contenido%}
+
+{%block content%}
+{%for post in posts%}
+<div>
+	<div>
+		Fecha de publicación: {{post.fechaPublicacion}}
+		<h4>Título: {{post.titulo}}</h4>
+		<p>{{post.texto|linebreaksbr}}</p>
+	</div>
+</div>
+{%endfor%}
+{%endblock content%}

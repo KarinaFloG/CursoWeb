@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	{% block title %}
+		<title>Django 2.1.2</title>
+	{% endblock title %}
+	<link rel="stylesheet" type="text/css" href="{% static 'css/materialize.min.css' %}">
+</head>
+<body>
+<nav>
+  <div class="nav-wrapper">
+    <a href="#" class="brand-logo">Clase DJango</a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a href="sass.html">Inicio</a></li>
+      <li><a href="badges.html">Post</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+	{% block content %}
+		¡ Hola prebes, si les salio?
+		<button class="btn">jkj</button>
+	{% endblock content %}
+</body>
+<script src="{% static 'js/jquery-3.3.1' %}"></script>
+<script src="{% static 'js/materialize.min.js' %}"></script>
+</html>
